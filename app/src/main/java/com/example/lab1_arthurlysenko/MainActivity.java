@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
     private Button button4;
     private Button button5;
     private Button button6;
+    private Button button7;
+    private Button button8;
+    private Button button9;
+    private Button button10;
+    private Button button11;
+    private Button button12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
         this.button4 = findViewById(R.id.button4);
         this.button5 = findViewById(R.id.button5);
         this.button6 = findViewById(R.id.button6);
+        this.button7 = findViewById(R.id.button7);
+        this.button8 = findViewById(R.id.button8);
+        this.button9 = findViewById(R.id.button9);
+        this.button10 = findViewById(R.id.button10);
+        this.button11 = findViewById(R.id.button11);
+        this.button12 = findViewById(R.id.button12);
     }
 
     public void onBtnClick(View view) {
@@ -44,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
         this.button3.setBackgroundColor(Color.GREEN);
         this.button5.setBackgroundColor(Color.CYAN);
         this.button6.setBackgroundColor(Color.RED);
+        this.button7.setBackgroundColor(Color.MAGENTA);
+        this.button8.setBackgroundColor(Color.LTGRAY);
+        this.button9.setBackgroundColor(Color.BLUE);
+        this.button10.setBackgroundColor(Color.RED);
+        this.button11.setBackgroundColor(Color.YELLOW);
+        this.button12.setBackgroundColor(Color.CYAN);
     }
 
     public void onBtnClick1(View view) {
